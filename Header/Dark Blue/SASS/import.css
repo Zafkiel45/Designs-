@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  background-color: #292752;
+  padding: 1em;
+  color: white;
+  font-family: arial, helvetica, sans-serif;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 1px 1px 3px #1e1e1f;
+}
+#header #header-list {
+  display: flex;
+  gap: 0.56em;
+  list-style: none;
+}
+#header #svg {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  #header #svg {
+    display: block;
+  }
+  #header #header-list {
+    display: none;
+  }
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #292752;
+  height: 100vh;
+  width: 25vh;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 3em;
+  box-shadow: 1px 2px 3px #1e1e1f;
+  z-index: 2;
+}
+#sidebar #svg_2 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#sidebar #svg_2:active {
+  position: relative;
+  top: 2px;
+}
+#sidebar #sidebar_list {
+  display: flex;
+  gap: 3em;
+  flex-direction: column;
+  list-style: none;
+  padding: 3em;
+}
+
+#svg {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+#svg:active {
+  position: relative;
+  top: 2px;
+}
+
+#content {
+  color: white;
+  width: 500px;
+  margin: 10% auto;
+}
+
+body {
+  background-color: #262449;
+}
+
+@-webkit-keyframes side {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes side {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-webkit-keyframes invertside {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes invertside {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -100%;
+  }
+}/*# sourceMappingURL=import.css.map */
