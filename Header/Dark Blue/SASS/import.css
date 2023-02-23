@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   background-color: #273852;
-  padding: 1.5em;
+  padding: 0.5em;
   color: white;
   font-family: arial, helvetica, sans-serif;
   justify-content: space-between;
@@ -19,6 +19,18 @@
   display: flex;
   gap: 1.25em;
   list-style: none;
+}
+#header #header-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+  padding: 10px;
+}
+#header #header-list li:hover {
+  border-radius: 10px;
+  background-color: #384f71;
 }
 #header #svg {
   display: none;
