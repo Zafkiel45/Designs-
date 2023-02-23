@@ -2,7 +2,7 @@
     display: flex; 
     align-items: center;
     background-color: $color-1;
-    padding: 1em;
+    padding: 1.5em;
     color: white;
     font-family: arial, helvetica, sans-serif;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     box-shadow: 1px 1px 3px $color-3;
     #header-list {
         display: flex;
-        gap: 0.56em;
+        gap: 1.25em;
         list-style: none;
     }
     #svg {
@@ -20,8 +20,8 @@
         #svg {
             display: block;
         }
-    
-        #header-list {
+
+        #header-container {
             display: none;
         }
     }
@@ -32,7 +32,7 @@
     top: 0;
     left: -100%;
     background-color: $color-1;
-    height: 100vh;
+    height: 100%;
     width: 25vh;
     animation-duration: 1s;
     display: flex;
@@ -59,6 +59,16 @@
         flex-direction: column;
         list-style: none;
         padding: 3em;
+        align-items: center;
+        .item-sidebar {
+            text-align: center;
+            border: none;
+            padding: 10px;
+            &:hover {
+                border-radius: 10px;
+                background-color: #384f71;
+            }
+        }
     }
     // transition: 0.9s;
 }
