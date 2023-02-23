@@ -82,6 +82,8 @@
   color: white;
   width: 500px;
   margin: 10% auto;
+  transition: 1s;
+  height: 100vh;
 }
 
 body {
