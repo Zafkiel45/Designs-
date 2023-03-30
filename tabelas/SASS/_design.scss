@@ -1,0 +1,33 @@
+table {
+    .item_head_table, .item_body_table{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .item_head_table {
+        font-weight: 600;
+    }
+    .item_body_table {
+        background-color: white;
+    }
+    .name {
+        text-align: initial;
+    }
+    .categ {
+        background-color: rgb(0, 119, 255);
+    }
+    .nota {
+        background: yellow;
+    }
+    .nome {
+        background-color: rgb(238, 122, 122);
+    }
+    .ano {
+        background-color: purple;
+    }
+    .title {
+        text-align: center;
+        background-color: pink;
+        padding: 1em;
+        border: 1px solid black;
+    }
+}
