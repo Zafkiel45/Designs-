@@ -1,33 +1,29 @@
 table {
-    .item_head_table, .item_body_table{
-        border: 1px solid black;
-        text-align: center;
+    color: white;
+    .first_laft {
+        border-top-left-radius: 20px;
     }
-    .item_head_table {
-        font-weight: 600;
+    .first_rigth {
+        border-top-right-radius: 20px;
     }
-    .item_body_table {
-        background-color: white;
+    .last_left {
+        border-bottom-left-radius: 20px;
     }
-    .name {
-        text-align: initial;
+    .last_rigth {
+        border-bottom-right-radius: 20px;
     }
-    .categ {
-        background-color: rgb(0, 119, 255);
+
+    .pronome {
+        background-color: rgb(4, 4, 124);
+        border: 1px solid rgb(14, 14, 80);
     }
-    .nota {
-        background: yellow;
+    .verbo {
+        background-color: rgb(53, 129, 7);
+        border: 1px solid rgb(15, 120, 4);
     }
-    .nome {
-        background-color: rgb(238, 122, 122);
+    .tradução {
+        background-color: rgb(75, 22, 22);
+        border: 1px solid rgb(63, 2, 2);
     }
-    .ano {
-        background-color: purple;
-    }
-    .title {
-        text-align: center;
-        background-color: pink;
-        padding: 1em;
-        border: 1px solid black;
-    }
+
 }
